@@ -40,6 +40,6 @@
     "node": "16.x"
   },
   "scripts": {
-    "build": "node --require ./memory.cjs ./node_modules/.bin/webpack --stats=errors-only"
+    "build": "NODE_OPTIONS=\"--max_old_space_size=5000\" node --require ./memory.cjs ./node_modules/.bin/webpack --stats=errors-only"
   }
 }

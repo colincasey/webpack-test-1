@@ -1,0 +1,56 @@
+{
+    "activity": ["./static/js/bundles/common", "sorttable", "./static/js/analytics/activity"],
+    "archive": [
+        "./static/js/bundles/portico",
+        "./static/js/archive",
+        "./static/js/colorspace",
+        "./static/js/floating_recipient_bar",
+        "./static/js/timerender",
+        "./static/js/templates",
+        "./static/js/stream_color",
+        "./static/js/scroll_bar"
+    ],
+    "billing": [
+        "./static/js/bundles/portico",
+        "./static/js/portico/landing-page",
+        "./static/js/billing/helpers",
+        "./static/js/billing/billing",
+        "./static/js/templates",
+        "./static/js/loading"
+    ],
+    "upgrade": [
+        "./static/js/bundles/portico",
+        "./static/js/portico/landing-page",
+        "./static/js/billing/helpers",
+        "./static/js/billing/upgrade",
+        "./static/js/templates",
+        "./static/js/loading"
+    ],
+    "portico": ["./static/js/bundles/portico"],
+    "common": ["./static/js/bundles/common"],
+    "help": [
+        "./static/js/bundles/portico",
+        "simplebar",
+        "./static/js/portico/help",
+        "./static/js/portico/tabbed-instructions"
+    ],
+    "landing-page": ["./static/js/bundles/portico", "./static/js/portico/landing-page"],
+    "integrations": ["./static/js/bundles/portico", "./static/js/portico/integrations"],
+    "signup": ["./static/js/bundles/portico", "jquery-validation", "./static/js/portico/signup"],
+    "register": ["./static/js/bundles/portico", "jquery-validation", "./static/js/portico/signup"],
+    "confirm-preregistrationuser": [
+        "./static/js/bundles/common",
+        "./static/js/portico/confirm-preregistrationuser"
+    ],
+    "support": [
+        "./static/js/bundles/common",
+        "sorttable",
+        "./static/js/analytics/activity",
+        "./static/js/analytics/support"
+    ],
+    "desktop-login": ["./static/js/bundles/portico", "./static/js/portico/desktop-login"],
+    "desktop-redirect": ["./static/js/bundles/portico", "./static/js/portico/desktop-redirect"],
+    "stats": ["./static/js/bundles/portico", "./static/js/stats/stats"],
+    "app": ["./static/js/bundles/app"],
+    "digest": ["./static/js/bundles/portico"]
+}
